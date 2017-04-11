@@ -1,0 +1,54 @@
+[
+    {
+        "name": "fzaninotto/faker",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fzaninotto/Faker.git",
+            "reference": "bd5580a1ca86bd32a8f72f9b47f273aab3ef90f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/bd5580a1ca86bd32a8f72f9b47f273aab3ef90f7",
+            "reference": "bd5580a1ca86bd32a8f72f9b47f273aab3ef90f7",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3.3|^7.0"
+        },
+        "require-dev": {
+            "ext-intl": "*",
+            "phpunit/phpunit": "~4.0||~5.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "time": "2017-04-07T07:05:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Faker\\": "src/Faker/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "François Zaninotto"
+            }
+        ],
+        "description": "Faker is a PHP library that generates fake data for you.",
+        "keywords": [
+            "data",
+            "faker",
+            "fixtures"
+        ]
+    }
+]

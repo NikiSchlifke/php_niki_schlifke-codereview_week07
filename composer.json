@@ -1,0 +1,15 @@
+{
+  "name": "niki_schlifke/book_database",
+  "description": "A small app to organize books",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Nikolaus Schlifke",
+      "email": "nikolaus.schlifke@gmail.com"
+    }
+  ],
+  "require": {
+    "fzaninotto/faker": "^1.6@dev"
+  }
+}
